@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", (event) => {
+document.addEventListener("DOMContentLoaded", () => {
     const createMessage = (msg) => {
         const message = document.createElement("h1");
         message.innerText = msg;
