@@ -1,8 +1,10 @@
-const createMessage = (msg) => {
-    const message = document.createElement("h1");
-    message.innerText = msg;
+document.addEventListener("DOMContentLoaded", (event) => {
+    const createMessage = (msg) => {
+        const message = document.createElement("h1");
+        message.innerText = msg;
+    
+        document.body.appendChild(message);
+    }
 
-    document.body.appendChild(message);
-}
-
-createMessage("Hello World");
+    createMessage("Hello World");
+});
